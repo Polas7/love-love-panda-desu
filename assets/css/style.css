@@ -1,8 +1,117 @@
-/*
-Colores & tipografía: 
-Verde - #ABE188;
-Rosa - #F78E69;
-font-family: 'Raleway', sans-serif;
-*/
+/*texto y medidas generales por "defecto" sin margenes ni padding*/
+*{
+	background-color:  #F78E69;
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px; 
+}
+/*titulo de encabezado*/
+h3{
+	margin-top: 60px;
+	font-size: 50px;
+	text-align: right;
+	color: white; 
+	padding:10px 80px;	
+}
+/*pie de titulo*/
+#two{
+	font-size: 20px;
+	text-align: right;
+	color: white; 
+	padding:10px 80px;
+	margin-bottom: 30px;
+}
+/*parrafos generales*/
+p{
+	font-size: 20px;
+	color: white; 
+	padding:10px 80px;
+	margin-bottom: 30px;	
+}
+/*color de fondo de la portada*/
+.color{
+	font-size: 50px;
+	background-color: #F78E69;
+	padding: 10px 0;
 
-/* Escribe tu código acá debajo */
+}
+/*trate de "arreglar"  la primera imagen de varias formas, porque a diferencia del resto queda mas pequeña*/
+.firstImage{
+	font-size: 50px;
+	background-color: #F78E69;
+	padding: 30px 0;
+}
+/*contenido de parrafo y su color respectivo*/
+.parrafo{
+	background-color: #ABE188;
+	padding: 70px 0;
+	color: white;
+}
+/*fondo del parrafo y texto*/
+.contenido{
+      background-color: #F78E69;
+      text-align: center;
+      padding:30px;
+      margin-right: 250px;
+      margin-left: 250px;
+}
+/*segunda imagen*/
+.secondImage{
+		width: 100%;
+	font-size: 50px;
+	background-color: #F78E69;
+	padding: 30px 0;
+}
+.fotitos{
+	font-size: 30px;
+	color: white; 
+	text-align: center;
+}
+
+
+
+
+/*lista de imagenes y su caja*/
+.container:before,
+.container:after {
+    clear: both;
+    display: block;
+}
+
+
+/*para todo span que este dentro del container
+Content box*/
+.container span {
+    /*estilos generales*/
+      display: inline-block;
+    /*quita el espacio entre los elementos, esto no depende del display*/
+    float: center;
+    /*modelo de caja*/
+    width: 80px;
+    height: 80px;
+    padding: 50px;
+    border: 5px solid white;
+    margin: 60px;
+}
+
+.container.caja span {
+    box-sizing: border-box;
+}
+
+
+
+
+/*tercera imagen*/
+.thirdImage{
+	font-size: 50px;
+	background-color: #F78E69;
+	padding: 30px 0;
+}
+
+footer{
+background-color: #F78E69;
+border-bottom: none;
+text-align: right;
+}
+
