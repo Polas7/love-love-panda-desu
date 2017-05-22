@@ -71,33 +71,50 @@ p{
 
 
 
-
-/*lista de imagenes y su caja*/
-.container:before,
-.container:after {
-    clear: both;
-    display: block;
+/* sección */
+.lista-images{
+	display: inline-block;
+	overflow: auto;
 }
-
-
-/*para todo span que este dentro del container
-Content box*/
-.container span {
-    /*estilos generales*/
-      display: inline-block;
-    /*quita el espacio entre los elementos, esto no depende del display*/
-    float: center;
+.imagenes span {
+	display: inline-block;
+	font-size: 20px;
     /*modelo de caja*/
-    width: 80px;
-    height: 80px;
+    width: 30px;
+    height: 10px;
     padding: 50px;
-    border: 5px solid white;
-    margin: 60px;
+    margin: 20px;
 }
 
-.container.caja span {
-    box-sizing: border-box;
+.imagen{ 
+	display: inline;
+	background-color: #DC5322;
+	padding: 10px;
+	margin: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
